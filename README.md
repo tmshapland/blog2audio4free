@@ -48,11 +48,11 @@ Copy the content of your blog and paste it into `input.txt`.
 
 I recognize that I could have done something fancier here where the users inputs a URL, but this works fine. 
 
-## Step 2. Clean up the blog post for listening
+### Step 2. Clean up the blog post for listening
 
 It's hard to listen to code and tables. You'll want to delete them from `input.txt`. Optionally, you can open `input.txt` in Cursor and ask Cursor to "Remove all tables and code from this text", but it'll cost you some tokens and I'm trying to do this without paying for anything. That said, I love the idea of using Cursor for non-coding tasks. 
 
-## Step 3. Convert the blog post to audio using Mac's native text to speech engine.
+### Step 3. Convert the blog post to audio using Mac's native text to speech engine.
 
 In the terminal, paste the following. Be sure to update your file paths and names. I prefer to output to my Downloads directory because it's easier to find it there for the next step (i.e., copying the file with my iPhone). 
 
@@ -60,14 +60,14 @@ In the terminal, paste the following. Be sure to update your file paths and name
 say -f input.txt --progress -o ~/Downloads/2021_07_going_beyond.m4a
 ```
 
-## Step 4. AirDrop the audio file to your phone.
+### Step 4. AirDrop the audio file to your phone.
 
 Right click on the audio file, click share, click AirDrop, then click on your phone. 
 
-## Step 5. Copy the file to Pocket Casts
+### Step 5. Copy the file to Pocket Casts
 
 Open the Files app on your iPhone. Find the file you uploaded. Tap and hold, then tap share. Scroll through the list of apps and select Pocket Casts. (You can also do this step from within Pocket Casts).
 
-## Step 6. Listen to the content you're falling behind on while doing dishing, commuting, et cetera. 
+### Step 6. Listen to the content you're falling behind on while doing dishing, commuting, et cetera. 
 
 Open the Pocket Casts app, tap profile, tap files, select your audio file, and listen while going about your mundane, mindless tasks.
